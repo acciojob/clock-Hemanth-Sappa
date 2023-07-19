@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let p = createElement("p");
-let date = date();
+let date = new Date();
 p.innertext = date;
 document.body.appendChild(p);
 
